@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE imobiliaria [
+<!ELEMENT imobiliaria (imovel+)>
+
+
+<!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+<!ATTLIST imovel id ID #REQUIRED>
+
+<!ELEMENT endereco (rua, bairro, cidade, numero*)>
+<!ELEMENT rua (#PCDATA)>
+<!ELEMENT bairro (#PCDATA)>
+<!ELEMENT cidade (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+
+<!ELEMENT proprietario (nome, (email|telefone)+)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefone (#PCDATA)>   
+
+<!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+<!ELEMENT tamanho (#PCDATA)>
+<!ELEMENT numQuartos (#PCDATA)>
+<!ELEMENT numBanheiros (#PCDATA)>
+
+<!ELEMENT descricao (#PCDATA)>
+<!ELEMENT valor (#PCDATA)>
+<!ATTLIST valor moeda (BRL) "BRL">
+<!ENTITY reais "R$"> 
+]>
+<imobiliaria>
+
+  <imovel id="imv001">
+    <descricao>Cobertura duplex com piscina privativa e vista panorâmica.</descricao>
+    <proprietario>
+      <nome>Ricardo Cavalcanti</nome>
+      <email>ricardo.c@provedor.com</email>
+      <telefone>(84) 99123-4567</telefone>
+      <telefone>(84) 3222-1010</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua Aristides Gurgel</rua>
+      <bairro>Centro</bairro>
+      <cidade>São Paulo do Potengi</cidade>
+      <numero>45</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>210m²</tamanho>
+      <numQuartos>4</numQuartos>
+      <numBanheiros>3</numBanheiros>
+    </caracteristicas>
+    <valor moeda="BRL">&reais; 850.000,00</valor>
+  </imovel>
+
+  <imovel id="imv002">
+    <descricao>Casa residencial próxima a escolas e comércio local.</descricao>
+    <proprietario>
+      <nome>Maria das Vitórias</nome>
+      <telefone>(84) 98877-6655</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua Otávio Amorim</rua>
+      <bairro>Novo Horizonte</bairro>
+      <cidade>São Paulo do Potengi</cidade>
+      <numero>120</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>120m²</tamanho>
+      <numQuartos>3</numQuartos>
+      <numBanheiros>2</numBanheiros>
+    </caracteristicas>
+    <valor moeda="BRL">&reais; 220.000,00</valor>
+  </imovel>
+
+  <imovel id="imv003">
+    <descricao>Lote de terreno plano em área de expansão urbana.</descricao>
+    <proprietario>
+      <nome>Empreendimentos Potengi Ltda</nome>
+      <email>contato@potengicontrucoes.com.br</email>
+    </proprietario>
+    <endereco>
+      <rua>Estrada Geral do Salgado</rua>
+      <bairro>Zona Rural</bairro>
+      <cidade>São Paulo do Potengi</cidade>
+      </endereco>
+    <caracteristicas>
+      <tamanho>450m²</tamanho>
+      <numQuartos>0</numQuartos>
+      <numBanheiros>0</numBanheiros>
+    </caracteristicas>
+    <valor moeda="BRL">&reais; 75.000,00</valor>
+  </imovel>
+
+  <imovel id="imv004">
+    <descricao>Apartamento térreo de fácil acesso e ótima ventilação.</descricao>
+    <proprietario>
+      <nome>José Ferreira</nome>
+      <email>ze.ferreira@email.com</email>
+      <telefone>(84) 3251-0000</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua Bento Urbano</rua>
+      <bairro>Santos Dumont</bairro>
+      <cidade>São Paulo do Potengi</cidade>
+      <numero>88</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>55m²</tamanho>
+      <numQuartos>2</numQuartos>
+      <numBanheiros>1</numBanheiros>
+    </caracteristicas>
+    <valor moeda="BRL">&reais; 135.000,00</valor>
+  </imovel>
+
+  <imovel id="imv005">
+    <descricao>Ponto comercial ideal para restaurante ou farmácia.</descricao>
+    <proprietario>
+      <nome>Antônio Marcos</nome>
+      <telefone>(84) 99911-2233</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Praça Monsenhor Expedito</rua>
+      <bairro>Centro</bairro>
+      <cidade>São Paulo do Potengi</cidade>
+      <numero>10</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>80m²</tamanho>
+      <numQuartos>0</numQuartos>
+      <numBanheiros>2</numBanheiros>
+    </caracteristicas>
+    <valor moeda="BRL">&reais; 300.000,00</valor>
+  </imovel>
+
+</imobiliaria>

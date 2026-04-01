@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+<quiz versao="1.0">
+    <disciplina>Linguagens de Marcação</disciplina>
+    <professor>
+        <nome>Dr. Alan Turing</nome>
+        <matrícula>2026XML001</matrícula>
+    </professor>
+    <turma>Sistemas para Internet - 2026.1</turma>
+    <data>01/04/2026</data>
+    
+    <questões>
+        <questão>
+            <enunciado>O que significa a sigla XML?</enunciado>
+            <pontuação>2.0</pontuação>
+            <alternativas>
+                <alternativa correta="nao">X-ray Multi Language</alternativa>
+                <alternativa correta="sim">eXtensible Markup Language</alternativa>
+                <alternativa correta="nao">Extra Modern Link</alternativa>
+                <alternativa correta="nao">Example Markup Language</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual a função principal de um DTD em um documento XML?</enunciado>
+            <pontuação>2.0</pontuação>
+            <alternativas>
+                <alternativa correta="sim">Definir a estrutura e as regras de validação do documento.</alternativa>
+                <alternativa correta="nao">Estilizar o conteúdo para exibição no navegador.</alternativa>
+                <alternativa correta="nao">Conectar o XML a um banco de dados relacional.</alternativa>
+                <alternativa correta="nao">Criptografar as informações sensíveis do arquivo.</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Em XML, um documento que segue todas as regras sintáticas e as regras do seu DTD é considerado:</enunciado>
+            <pontuação>2.0</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Apenas bem formado.</alternativa>
+                <alternativa correta="nao">Um documento binário.</alternativa>
+                <alternativa correta="sim">Um documento válido.</alternativa>
+                <alternativa correta="nao">Um documento parseado.</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual caractere é usado no DTD para indicar que um elemento é opcional (zero ou uma ocorrência)?</enunciado>
+            <pontuação>2.0</pontuação>
+            <alternativas>
+                <alternativa correta="nao">O caractere asterisco (*)</alternativa>
+                <alternativa correta="sim">O ponto de interrogação (?)</alternativa>
+                <alternativa correta="nao">O sinal de adição (+)</alternativa>
+                <alternativa correta="nao">A barra vertical (|)</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual das alternativas apresenta uma regra de "documento bem formado"?</enunciado>
+            <pontuação>2.0</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Tags podem ser abertas e não fechadas.</alternativa>
+                <alternativa correta="sim">Deve existir exatamente um elemento raiz.</alternativa>
+                <alternativa correta="nao">Nomes de tags não diferenciam maiúsculas de minúsculas.</alternativa>
+                <alternativa correta="nao">Atributos não precisam de aspas.</alternativa>
+            </alternativas>
+        </questão>
+    </questões>
+</quiz>
