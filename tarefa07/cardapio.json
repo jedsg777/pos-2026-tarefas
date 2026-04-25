@@ -1,0 +1,79 @@
+{
+  "cardapio": {
+    "prato": [
+      {
+        "id": 1,
+        "nome": "pirao",
+        "descricao": "graxa de frango com farinha",
+        "ingredientes": {
+          "ingrediente": [
+            "graxa de frango",
+            "farinha"
+          ]
+        },
+        "preco": 15.00,
+        "calorias": 1000,
+        "tempoPreparo": "20min"
+      },
+      {
+        "id": 2,
+        "nome": "farofa",
+        "descricao": "nao tem como descrever farofa muito bem",
+        "ingredientes": {
+          "ingrediente": [
+            "farinha",
+            "manteiga",
+            "bacon",
+            "cebola"
+          ]
+        },
+        "preco": 10.00,
+        "calorias": 500,
+        "tempoPreparo": "40min"
+      },
+      {
+        "id": 3,
+        "nome": "arroz com feijao",
+        "descricao": "arroz e feijao",
+        "ingredientes": {
+          "ingrediente": [
+            "feijao",
+            "Arroz"
+          ]
+        },
+        "preco": 20.00,
+        "calorias": 700,
+        "tempoPreparo": "60min"
+      },
+      {
+        "id": 4,
+        "nome": "churrasco de picanha",
+        "descricao": "picanha grelhada na churrasqueira",
+        "ingredientes": {
+          "ingrediente": [
+            "Picanha"
+          ]
+        },
+        "preco": 70.00,
+        "calorias": 800,
+        "tempoPreparo": "30min"
+      },
+      {
+        "id": 5,
+        "nome": "salada",
+        "descricao": "eu nao compro isso",
+        "ingredientes": {
+          "ingrediente": [
+            "alface",
+            "tomate",
+            "ovo",
+            "pepino"
+          ]
+        },
+        "preco": 30.00,
+        "calorias": 200,
+        "tempoPreparo": "20min"
+      }
+    ]
+  }
+}

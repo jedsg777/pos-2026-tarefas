@@ -1,0 +1,107 @@
+{
+  "imobiliaria": {
+    "imovel": [
+      {
+        "id": "001",
+        "descricao": "Cobertura duplex com piscina privativa e vista panorâmica.",
+        "proprietario": {
+          "nome": "Ricardo Cavalcanti",
+          "email": ["ricardo.c@provedor.com"],
+          "telefone": ["(84) 99123-4567", "(84) 3222-1010"]
+        },
+        "endereco": {
+          "rua": "Rua Aristides Gurgel",
+          "bairro": "Centro",
+          "cidade": "São Paulo do Potengi",
+          "numero": 45
+        },
+        "caracteristicas": {
+          "tamanho": 210,
+          "numQuartos": 4,
+          "numBanheiros": 3
+        },
+        "valor": "850.000,00"
+      },
+      {
+        "id": "002",
+        "descricao": "Casa residencial próxima a escolas e comércio local.",
+        "proprietario": {
+          "nome": "Maria das Vitórias",
+          "telefone": ["(84) 98877-6655"]
+        },
+        "endereco": {
+          "rua": "Rua Otávio Amorim",
+          "bairro": "Novo Horizonte",
+          "cidade": "São Paulo do Potengi",
+          "numero": 120
+        },
+        "caracteristicas": {
+          "tamanho": 120,
+          "numQuartos": 3,
+          "numBanheiros": 2
+        },
+        "valor": "220.000,00"
+      },
+      {
+        "id": "003",
+        "descricao": "Lote de terreno plano em área de expansão urbana.",
+        "proprietario": {
+          "nome": "Empreendimentos Potengi Ltda",
+          "email": ["contato@potengicontrucoes.com.br"]
+        },
+        "endereco": {
+          "rua": "Estrada Geral do Salgado",
+          "bairro": "Zona Rural",
+          "cidade": "São Paulo do Potengi"
+        },
+        "caracteristicas": {
+          "tamanho": 450,
+          "numQuartos": 0,
+          "numBanheiros": 0
+        },
+        "valor": "75.000,00"
+      },
+      {
+        "id": "004",
+        "descricao": "Apartamento térreo de fácil acesso e ótima ventilação.",
+        "proprietario": {
+          "nome": "José Ferreira",
+          "email": ["ze.ferreira@email.com"],
+          "telefone": ["(84) 3251-0000"]
+        },
+        "endereco": {
+          "rua": "Rua Bento Urbano",
+          "bairro": "Santos Dumont",
+          "cidade": "São Paulo do Potengi",
+          "numero": 88
+        },
+        "caracteristicas": {
+          "tamanho": 55,
+          "numQuartos": 2,
+          "numBanheiros": 1
+        },
+        "valor": "135.000,00"
+      },
+      {
+        "id": "005",
+        "descricao": "Ponto comercial ideal para restaurante ou farmácia.",
+        "proprietario": {
+          "nome": "Antônio Marcos",
+          "telefone": ["(84) 99911-2233"]
+        },
+        "endereco": {
+          "rua": "Praça Monsenhor Expedito",
+          "bairro": "Centro",
+          "cidade": "São Paulo do Potengi",
+          "numero": 10
+        },
+        "caracteristicas": {
+          "tamanho": 80,
+          "numQuartos": 0,
+          "numBanheiros": 2
+        },
+        "valor": "300.000,00"
+      }
+    ]
+  }
+}

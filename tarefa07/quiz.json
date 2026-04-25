@@ -1,0 +1,64 @@
+{
+  "quiz": {
+    "versao": "V001",
+    "disciplina": "Linguagens de Marcação",
+    "professor": {
+      "nome": "Dr. Alan Turing",
+      "matricula": "2026XML001"
+    },
+    "turma": "Sistemas para Internet - 2026.1",
+    "data": "01/04/2026",
+    "questoes": [
+      {
+        "enunciado": "O que significa a sigla XML?",
+        "pontuacao": 2.0,
+        "alternativas": [
+          { "correta": "nao", "texto": "X-ray Multi Language" },
+          { "correta": "sim", "texto": "eXtensible Markup Language" },
+          { "correta": "nao", "texto": "Extra Modern Link" },
+          { "correta": "nao", "texto": "Example Markup Language" }
+        ]
+      },
+      {
+        "enunciado": "Qual a função principal de um DTD em um documento XML?",
+        "pontuacao": 2.0,
+        "alternativas": [
+          { "correta": "sim", "texto": "Definir a estrutura e as regras de validação do documento." },
+          { "correta": "nao", "texto": "Estilizar o conteúdo para exibição no navegador." },
+          { "correta": "nao", "texto": "Conectar o XML a um banco de dados relacional." },
+          { "correta": "nao", "texto": "Criptografar as informações sensíveis do arquivo." }
+        ]
+      },
+      {
+        "enunciado": "Em XML, um documento que segue todas as regras sintáticas e as regras do seu DTD é considerado:",
+        "pontuacao": 2.0,
+        "alternativas": [
+          { "correta": "nao", "texto": "Apenas bem formado." },
+          { "correta": "nao", "texto": "Um documento binário." },
+          { "correta": "sim", "texto": "Um documento válido." },
+          { "correta": "nao", "texto": "Um documento parseado." }
+        ]
+      },
+      {
+        "enunciado": "Qual caractere é usado no DTD para indicar que um elemento é opcional (zero ou uma ocorrência)?",
+        "pontuacao": 2.0,
+        "alternativas": [
+          { "correta": "nao", "texto": "O caractere asterisco (*)" },
+          { "correta": "sim", "texto": "O ponto de interrogação (?)" },
+          { "correta": "nao", "texto": "O sinal de adição (+)" },
+          { "correta": "nao", "texto": "A barra vertical (|)" }
+        ]
+      },
+      {
+        "enunciado": "Qual das alternativas apresenta uma regra de \"documento bem formado\"?",
+        "pontuacao": 2.0,
+        "alternativas": [
+          { "correta": "nao", "texto": "Tags podem ser abertas e não fechadas." },
+          { "correta": "sim", "texto": "Deve existir exatamente um elemento raiz." },
+          { "correta": "nao", "texto": "Nomes de tags não diferenciam maiúsculas de minúsculas." },
+          { "correta": "nao", "texto": "Atributos não precisam de aspas." }
+        ]
+      }
+    ]
+  }
+}

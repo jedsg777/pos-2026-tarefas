@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE quiz SYSTEM "quiz.dtd">
-<quiz versao="1.0">
-       <disciplina>Linguagens de Marcação</disciplina>
+<quiz versao="V001" xmlns="http://quiz.org" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://quiz.org 
+                        quiz.xsd">
+    <disciplina>Linguagens de Marcação</disciplina>
     <professor>
         <nome>Dr. Alan Turing</nome>
         <matricula>2026XML001</matricula>

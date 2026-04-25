@@ -1,15 +1,15 @@
-<!ELEMENT quiz (disciplina, professor, turma, data, questões)>
+<!ELEMENT quiz (disciplina, professor, turma, data, questoes)>
     <!ATTLIST quiz versao CDATA #REQUIRED>
     <!ELEMENT disciplina (#PCDATA)>
-    <!ELEMENT professor (nome, matrícula?)>
+    <!ELEMENT professor (nome, matricula?)>
         <!ELEMENT nome (#PCDATA)>
-        <!ELEMENT matrícula (#PCDATA)>
+        <!ELEMENT matricula (#PCDATA)>
     <!ELEMENT turma (#PCDATA)>
     <!ELEMENT data (#PCDATA)>
-    <!ELEMENT questões (questão+)>
-        <!ELEMENT questão (enunciado, pontuação, alternativas)>
+    <!ELEMENT questoes (questao+)>
+        <!ELEMENT questao (enunciado, pontuacao, alternativas)>
             <!ELEMENT enunciado (#PCDATA)>
-            <!ELEMENT pontuação (#PCDATA)>
+            <!ELEMENT pontuacao (#PCDATA)>
             <!ELEMENT alternativas (alternativa+)>
                 <!ELEMENT alternativa (#PCDATA)>
                     <!ATTLIST alternativa correta (sim|nao) #REQUIRED>
