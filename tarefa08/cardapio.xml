@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cardapio xmlns="http://cardapio.org" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://cardapio.org cardapio.xsd">
+
+    <prato id="01">
+        <nome>pirao</nome>
+        <descricao>graxa de frango com farinha</descricao>
+        <ingredientes>
+            <ingrediente>graxa de frango</ingrediente>
+            <ingrediente>farinha</ingrediente>
+        </ingredientes>
+        <preco> 15</preco>
+        <calorias>1000</calorias>
+        <tempoPreparo>20min</tempoPreparo>
+    </prato>
+
+    <prato id="02">
+        <nome>farofa</nome>
+        <descricao>nao tem como descrever farofa muito bem</descricao>
+        <ingredientes>
+            <ingrediente>farinha</ingrediente>
+            <ingrediente>manteiga</ingrediente>
+            <ingrediente>bacon</ingrediente>
+            <ingrediente>cebola</ingrediente>
+        </ingredientes>
+        <preco> 10</preco>
+        <calorias>500</calorias>
+        <tempoPreparo>40min</tempoPreparo>
+    </prato>
+
+    <prato id="03">
+        <nome>arroz com feijao</nome>
+        <descricao>arroz e feijao</descricao>
+        <ingredientes>
+            <ingrediente>feijao</ingrediente>
+            <ingrediente>Arroz</ingrediente>
+        </ingredientes>
+        <preco> 20</preco>
+        <calorias>700</calorias>
+        <tempoPreparo>60min</tempoPreparo>
+    </prato>
+
+    <prato id="04">
+        <nome>churrasco de picanha</nome>
+        <descricao>picanha grelhada na churrasqueira</descricao>
+        <ingredientes>
+            <ingrediente>Picanha</ingrediente>
+        </ingredientes>
+        <preco> 70</preco>
+        <calorias>800</calorias>
+        <tempoPreparo>30min</tempoPreparo>
+    </prato>
+
+    <prato id="05">
+        <nome>salada</nome>
+        <descricao>eu nao compro isso</descricao>
+        <ingredientes>
+            <ingrediente>alface</ingrediente>
+            <ingrediente>tomate</ingrediente>
+            <ingrediente>ovo</ingrediente>
+            <ingrediente>pepino</ingrediente>
+        </ingredientes>
+        <preco> 30</preco>
+        <calorias>200</calorias>
+        <tempoPreparo>20min</tempoPreparo>
+    </prato>
+</cardapio>
